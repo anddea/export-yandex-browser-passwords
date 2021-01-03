@@ -12,7 +12,7 @@ tell application "System Events" to tell process "Microsoft Excel"
 	keystroke return
 end tell
 
-repeat 2 times # number of passwords
+repeat 5 times # number of passwords
 	
 	activate application "Yandex"
 	
@@ -35,13 +35,9 @@ repeat 2 times # number of passwords
 	
 	tell application "System Events" to tell process "Microsoft Excel"
 		keystroke dom
-		delay 0.1
 		keystroke tab
-		delay 0.1
 		keystroke "v" using command down
-		delay 0.1
 		keystroke tab
-		delay 0.1
 	end tell
 	
 	activate application "Yandex"
@@ -51,16 +47,13 @@ repeat 2 times # number of passwords
 			keystroke tab
 		end repeat
 		keystroke return
-		delay 0.1
 	end tell
 	
 	activate application "Microsoft Excel"
 	
 	tell application "System Events" to tell process "Microsoft Excel"
 		keystroke "v" using command down
-		delay 0.1
 		keystroke tab
-		delay 0.1
 	end tell
 	
 	activate application "Yandex"
@@ -70,21 +63,17 @@ repeat 2 times # number of passwords
 			keystroke tab
 		end repeat
 		keystroke return
-		delay 0.1
 		repeat 4 times
 			keystroke tab
 		end repeat
 		keystroke return
-		delay 0.1
 	end tell
 	
 	activate application "Microsoft Excel"
 	
 	tell application "System Events" to tell process "Microsoft Excel"
 		keystroke "v" using command down
-		delay 0.1
 		keystroke return
-		delay 0.1
 	end tell
 	
 end repeat
