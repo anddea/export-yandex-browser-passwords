@@ -1,4 +1,6 @@
 # How-to
+Video / Видео: https://youtu.be/ijWMu1IOB7U
+
 AppleScript (only for macOS) to export passwords from Yandex Browser to Excel
 
 1. Open Script Editor (you can find it in Spotlight search on macOS)
